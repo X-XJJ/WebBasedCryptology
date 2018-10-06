@@ -1,7 +1,7 @@
 <?php
 
 //非持续地连接PHP后端与MySQL
-//过程写在此文件内，其他地方在每次需要打开数据库时，使用include或include_once来调用并执行此文件
+//过程写在此文件内，其他地方在每次需要打开和连接数据库时，使用include或include_once来调用并执行此文件
 
 //link sql
 $con = mysql_connect("localhost","root","qingkong") or die(mysql_errno());
